@@ -92,7 +92,7 @@ LAN: 192.168.10.1/24
 ## 📸 Screenshots
 
 ### pfSense Console
-![pfSense Console](02_VM_Setup/screenshots/pfsense_installed.png)
+![pfSense Console](02_VM_Setup/screenshots/01_pfsense_console.png)
 
 ### Office-PC Network Verification
 ![Office-PC IP Config](02_VM_Setup/screenshots/office_pc_ipconfig.png)
