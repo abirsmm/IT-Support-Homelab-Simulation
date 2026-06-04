@@ -104,7 +104,7 @@ LAN: 192.168.10.1/24
 ![All Clients Pinging](02_VM_Setup/screenshots/cross_client_ping.png)
 
 ### Network Topology
-![Network diagram] (02_VM_Setup/screenshots/network_topology.jpg)
+![Network diagram](https://github.com/abirsmm/IT-Support-Homelab-Simulation/blob/main/02_VM_Setup/screenshots/network_topology.jpg?raw=true))
 
 ---
 
