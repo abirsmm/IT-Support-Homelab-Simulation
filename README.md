@@ -95,7 +95,7 @@ LAN: 192.168.10.1/24
 ![pfSense Console](02_VM_Setup/screenshots/01_pfsense_console.png)
 
 ### Office-PC Network Verification
-![Office-PC IP Config](02_VM_Setup/screenshots/office_pc_ipconfig.png)
+![Office-PC IP Config](02_VM_Setup/screenshots/02_office_pc_ipconfig.png)
 
 ### Ubuntu Static IP Configuration
 ![Ubuntu Static IP](02_VM_Setup/screenshots/ubuntu_static_ip.png)
