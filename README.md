@@ -103,6 +103,9 @@ LAN: 192.168.10.1/24
 ### Multi-Client Connectivity Test
 ![All Clients Pinging](02_VM_Setup/screenshots/cross_client_ping.png)
 
+### Network Topology
+![Network diagram] (02_VM_Setup/screenshots/network_topology.jpg)
+
 ---
 
 ## 📂 Documentation Included
