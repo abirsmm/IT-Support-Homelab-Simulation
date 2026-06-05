@@ -24,18 +24,25 @@ This project simulates a **realistic small business IT environment** including:
 
 ## 🏗️ Network Architecture
 
-[INTERNET]
-↓
-[pfSense Firewall]
-192.168.10.1/24
-↓
-[Internal Network]
-↓
-┌───────────────┬───────────────┬───────────────┐
-↓ ↓ ↓ ↓
-[Office-PC] [Warehouse-PC] [Ubuntu-POS] [CCTV VLAN]
-.100 .101 .50 .20.0/24
-4GB RAM 2GB RAM 2GB RAM (ISOLATED)
+```mermaid
+flowchart TD
+    Internet[Internet]
+    pfSense[pfSense Firewall<br>192.168.10.1/24]
+    Internal[Internal Network<br>192.168.10.0/24]
+    Office[Office-PC<br>192.168.10.100<br>4GB RAM]
+    Warehouse[Warehouse-PC<br>192.168.10.101<br>2GB RAM]
+    Ubuntu[Ubuntu-POS<br>192.168.10.50<br>2GB RAM]
+    CCTV[CCTV VLAN<br>192.168.20.0/24<br>ISOLATED]
+    Camera[CCTV Camera<br>192.168.20.100]
+    
+    Internet --> pfSense
+    pfSense --> Internal
+    Internal --> Office
+    Internal --> Warehouse
+    Internal --> Ubuntu
+    Internal -.->|BLOCKED| CCTV
+    CCTV --> Camera
+```
 
 
 ### 🔒 Security Feature
