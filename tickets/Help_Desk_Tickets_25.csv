@@ -1,0 +1,26 @@
+Ticket ID,Date,Time,Reporter,Department,Issue,Priority,Resolution,Time (min)
+Z57-001,2026-06-01,9:15 AM,Sarah,Finance,"Can't access shared drive Z:",High,"Mapped drive using net use Z: \\192.168.10.15\Shared /persistent:yes",8
+Z57-002,2026-06-01,10:30 AM,Ahmed,Warehouse,"Warehouse PC loses internet every afternoon",Medium,"Found Windows Update downloading; scheduled updates for 2 AM via GPO",15
+Z57-003,2026-06-01,11:45 AM,Fatima,HR,"Printer HP 400 shows offline",High,"Restarted Print Spooler service, cleared stuck job, set static IP 192.168.10.45",12
+Z57-004,2026-06-01,1:20 PM,Khalid,Sales,"Can't ping Ubuntu POS system",Low,"Fixed firewall rule; POS had wrong gateway; changed to 192.168.10.1",10
+Z57-005,2026-06-01,2:45 PM,Maryam,Mgmt,"Internet very slow",Medium,"Rebooted pfSense; cleared states; speed returned to normal",5
+Z57-006,2026-06-02,9:00 AM,HR Dept,HR,"New hire - John needs computer access",High,"Created local account; added to Office-Staff group; mapped Z: drive",20
+Z57-007,2026-06-02,10:15 AM,Warehouse,Warehouse,"Ex-employee Ahmed still has access",High,"Disabled account immediately; changed shared folder passwords",7
+Z57-008,2026-06-02,11:30 AM,Finance,Finance,"Sarah forgot Windows password",High,"Booted to recovery; reset password via utilman.exe method",15
+Z57-009,2026-06-02,1:00 PM,Sales,Sales,"Intern cannot print to color printer",Medium,"Added user to Print Operators group; tested successfully",6
+Z57-010,2026-06-02,2:30 PM,IT Dept,IT,"Need audit of who accessed HR folder",Low,"Checked Event Viewer (ID 4663); exported log to CSV",25
+Z57-011,2026-06-03,8:45 AM,Warehouse,Warehouse,"PC won't turn on",High,"Reseated RAM; cleaned dust; PSU test passed; system booted",30
+Z57-012,2026-06-03,10:00 AM,Office,Office,"Laptop screen flickering",Medium,"Updated Intel graphics driver; disabled panel self-refresh",18
+Z57-013,2026-06-03,11:15 AM,Reception,Reception,"USB mouse not working",Low,"Device Manager → uninstalled USB root hubs → reboot",8
+Z57-014,2026-06-03,1:30 PM,Server Room,IT,"Fan making loud noise",Medium,"Opened case; cleaned fan with compressed air; reapplied thermal paste",35
+Z57-015,2026-06-03,3:00 PM,Warehouse,Warehouse,"Barcode scanner not scanning",Medium,"Replaced USB cable; reinstalled driver; tested 10 barcodes",12
+Z57-016,2026-06-04,9:30 AM,Finance,Finance,"Outlook won't send emails",High,"Repaired OST file using scanpst.exe; recreated mail profile",22
+Z57-017,2026-06-04,10:45 AM,Sales,Sales,"Excel crashes opening large file",Medium,"Disabled COM add-ins; ran repair; updated to latest build",28
+Z57-018,2026-06-04,12:00 PM,IT,IT,"Antivirus showing 3 threats",High,"Ran full scan; quarantined files; educated user on phishing",20
+Z57-019,2026-06-04,1:45 PM,Design,Design,"Adobe Acrobat won't install",Medium,"Removed old version with Revo Uninstaller; clean install",25
+Z57-020,2026-06-04,3:15 PM,Warehouse,Warehouse,"PDFs opening in Edge, not Adobe",Low,"Changed default app settings; associated .pdf with Adobe Reader",5
+Z57-021,2026-06-05,8:30 AM,Security,Security,"CCTV camera 3 (loading bay) black",High,"Rebooted camera via RTSP; checked VLAN routing; feed restored",15
+Z57-022,2026-06-05,9:45 AM,Manager,Mgmt,"NVR not recording overnight",High,"Checked storage; formatted HDD; set overwrite to ON (30 days)",20
+Z57-023,2026-06-05,11:00 AM,Security,Security,"Motion alerts not arriving to phone",Medium,"Fixed SMTP settings; tested with Gmail relay; alerts working",25
+Z57-024,2026-06-05,1:15 PM,IT Dept,IT,"Need CCTV isolated from office network",High,"Created VLAN 20; added firewall rules blocking LAN ↔ CCTV",45
+Z57-025,2026-06-05,2:45 PM,Compliance,Legal,"Audit request - who accessed CCTV?",Low,"Checked pfSense firewall logs; exported CCTV access attempts",15
