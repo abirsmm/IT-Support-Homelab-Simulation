@@ -32,10 +32,10 @@ This project simulates a **realistic small business IT environment** including:
 [Internal Network]
 ↓
 ┌───────────────┬───────────────┬───────────────┐
-↓               ↓               ↓               ↓
+↓ ↓ ↓ ↓
 [Office-PC] [Warehouse-PC] [Ubuntu-POS] [CCTV VLAN]
-.100        .101           .50          .20.0/24
-4GB RAM     2GB RAM        2GB RAM (ISOLATED)
+.100 .101 .50 .20.0/24
+4GB RAM 2GB RAM 2GB RAM (ISOLATED)
 
 
 ### 🔒 Security Feature
