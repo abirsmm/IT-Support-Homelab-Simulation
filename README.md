@@ -3,7 +3,7 @@
 > **Complete homelab project demonstrating enterprise IT support skills**
 
 **Author:** MD ABIR KHAN - IT Support Technician  
-**Location:** Qatar (Visa: Transferable)  
+**Location:** Qatar
 **Portfolio:** [GitHub Repository Link]
 
 ---
@@ -169,7 +169,7 @@ flowchart TD
 | 📧 Email | abirup77@gmail.com |
 | 🔗 LinkedIn | linkedin.com/in/abir2004 |
 | 🎓 Certifications | IBM, Cisco, TCM Security, Hikvision |
-| 📍 Location | Qatar (Visa: Transferable) |
+| 📍 Location | Qatar  |
 
 ---
 
